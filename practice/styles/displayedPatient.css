@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+h1 {
+    padding-top: 25px;
+    text-align: center;
+    color: #0c8bb6;
+    font-family: 'Raleway', sans-serif;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    -webkit-box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+    box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+  }
+  body{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/30574603/thumb/1.jpg);
+  }
+  h4{
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .para{
+    text-align: left;
+    color: #0c8bb6;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .sombra {
+    -webkit-box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+    box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+  }
+  .box {
+    font-size: larger;
+    width: 75%;
+    height: fit-content;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    background: #28B1C4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0c8bb6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0c8bb6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0c8bb6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0c8bb6); /* Standard syntax */
+    margin: 40px auto;
+  }
+  .textboxclass{
+    font-size: larger;
+    width: 75%;
+    height: fit-content;
+    min-height: 100px;
+    color: gray;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    margin-left: 200px;
+    -webkit-box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+    box-shadow: 14px 11px 17px -1px rgba(0,0,0,0.75);
+  }
+  .submit{
+    margin-left: 750px;
+    font-size: larger;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    background: #28B1C4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0c8bb6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0c8bb6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0c8bb6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0c8bb6); /* Standard syntax */
+    /* margin: auto; */
+  }

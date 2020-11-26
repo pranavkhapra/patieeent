@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor entry</title>
+    <link rel="stylesheet" href="practice/styles/entered.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .dropbtn {
+          background-color: rgb(13, 148, 182);
+          color: white;
+          padding: 14px;
+          font-size: 25px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: fixed;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }		
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color:  rgb(13, 148, 182);}
+        </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="aboutuss.html">About us</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Patients</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+            </li>
+            <li>
+                <form action="/startdoc" method="POST" class="dutycalls">
+                    <input type="text" name="link" placeholder="Put meeting link here">
+                    <button type='submit' class="duty">Duty</button>
+                </form> 
+            </li>
+            <li style="float: right"><a class="log" href="Login.html">Log out</a></li>
+            <li style="float: right"><a href="Profile" id="seeknamed">Name shows here</a></li><!backend part line do not change>
+        </ul>
+    </div>
+    <div class="content1">
+        <h1>Online doctor appointment system.</h1>
+    </div>
+    <script src="patientNewData.js"></script><!backend part line do not change>
+</body>
+</html>
+<!-- <a class="log" href="patientlogin.html"></a> -->

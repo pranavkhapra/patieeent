@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="practice/styles/register.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="aboutuss.html">About us</a></li>
+        </ul>
+    </div>
+    <div class="content1">
+        <h1>Online doctor appointment system.</h1>
+        <br>
+        <h2>Appointment form</h2>
+    </div>
+    <div class="form3">
+        <form action="/Appointment_request" method="post" target="_self" id="Form3">
+            <div class="form-row mb-4">
+                <div class="col">
+                    <!-- Patient's first name -->
+                    <input type="text" id="defaultRegisterFormFirstName" class="form-control" 
+                    placeholder="Patient's first name" name="fname">
+                </div>
+                <div class="col">
+                    <!-- Patient's last name -->
+                    <input type="text" id="defaultRegisterFormLastName" class="form-control" 
+                    placeholder="Patient's last name" name="lname">
+                </div>
+            </div>
+
+            <!--age-->
+            <div class="age">
+                <label for="age"></label>
+                <input type="text" class="form-control" id="age" placeholder="Age" name="age">
+            </div>
+
+            <!--gender-->
+            <div class="radio">
+                <label class="radio-inline"><input type="radio" name="gender" checked>Male  </label>
+                <label class="radio-inline"><input type="radio" name="gender">Female  </label>
+                <label class="radio-inline"><input type="radio" name="gender">Other</label>
+            </div>
+
+            <div class="selrel">
+                <label for="sel1">Select account holder's relation with you:</label>
+                <select class="form-control" id="sel1" name="relation">
+                  <option>--</option>
+                  <option>yourself</option>
+                  <option>Parent</option>
+                  <option>Sibling</option>
+                  <option>Guardian</option>
+                  <option>Spouse</option>
+                  <option>Friend</option>
+                </select>
+              </div><br>
+
+            <!--chronic disease-->
+            <div class="cd">
+                <label for="disease"></label>
+                <input type="text" class="form-control" id="disease" 
+                placeholder="Any chronic disease e.g. diabetes, blood pressure,etc." name="chr_disease">
+            </div><br>
+
+            <!--allergies-->
+            <div class="allergy">
+                <label for="allergies"></label>
+                <input type="text" class="form-control" id="allergy" placeholder="Any allergies" name="allergy">
+            </div>
+
+            </div>
+            <div class="explain">
+                <label for="comment">Explain your problem and symptoms here:</label>
+                <textarea class="form-control" rows="5" id="comment" name="problem" form="Form3"></textarea>
+            </div>
+
+            <!-- Sign up button -->
+            <div class="button">
+                <button class="btn btn-info my-4 btn-block" type="submit">Request appointment</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

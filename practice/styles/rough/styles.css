@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+h1:hover
+{
+    color: rosybrown;
+    font-style: italic;
+}
+h1 {
+    color: hotpink;
+    font-family: 'Chilanka', cursive;
+}
+h1 a {
+    color:hotpink;   
+}
+h2 a {
+    color: seagreen;
+}
+h2 a:hover {
+    color: chocolate;
+}
+ul:hover{
+    color: orange;
+}
+ul a:hover{
+    color: pink;
+}
+ol a:link{
+    text-decoration: none;
+}
+ol a:visited{
+    color:maroon
+}
+ol a:hover{
+    color:orange;
+}
+.yayyy {
+    border-radius: 5px 86px 0px 89px;
+    -moz-border-radius: 5px 86px 0px 89px;
+    -webkit-border-radius: 5px 86px 0px 89px;
+    border: 10px solid #000000;
+}
+.yoo:hover {
+    -webkit-box-shadow: 15px 6px 6px 0px pink;
+    -moz-box-shadow: 15px 6px 6px 0px pink;
+    box-shadow: 15px 6px 6px 0px pink;
+      border-radius: 5px 86px 0px 89px;
+    -moz-border-radius: 5px 86px 0px 89px;
+    -webkit-border-radius: 5px 86px 0px 89px;
+    border: 10px solid #000000;
+}
+body{
+    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/06/96/black-background-with-hexagons-honeycomb-pattern-vector-26430696.jpg);
+}
